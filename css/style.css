@@ -1,0 +1,300 @@
+/* All */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Body */
+
+body {
+	font-family: 'Verdana', sans-serif;
+}
+
+
+
+/* Body, Header */
+
+body, header, #content {
+	width: 100%;
+}
+
+/* Header */
+
+header {
+	background-color: #F00003;
+	color: #FFF;
+	height: 60px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+/* #content */
+
+#content {
+	padding-bottom: 20px;
+}
+
+#content, #content_cli, #content_list, #content_a, #content_con, #content_d, #content_delete, #content_update, #content_h {
+	text-align: center;
+	width: 100%;
+}
+#content div {
+	width: 100%;
+	background-color: blue;	
+}
+
+#content div h2 {
+	color: #FFF;
+	padding: 10px 0;
+}
+
+/* Contents */
+
+#content #page p, #content_cli section, #content_a section, #content_list section 
+#content_con section, #content_d section, #content_delete section,
+#content_update section {
+	margin: 30px 30px;
+}
+
+#content_cli section h3, #content_a section h3, #content_list section h3 
+#content_con section h3, #content_d section h3, 
+#content_delete section h3, #content_update section h3 {
+
+	margin-bottom: 10px;
+}
+
+/* Input and Textarea */
+
+#content_cli section form input, #content_a section form input, #content_list section form input, 
+#content_con section form input, #content_d section form input,
+#content_delete section form input, #content_update section form input,
+#content_d section form textarea, #content_update section form textarea {
+
+	margin: 8px 0;
+	padding: 10px;
+	width: 30%;
+	border: 1px solid #FF0023;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+/* Select */
+
+#content_list section form select, 
+#content_a section form select, 
+#content_con section form select, 
+#content_d section form select,
+#content_delete section form select,
+#content_update section form select {
+
+	margin: 8px 0;
+	padding: 10px;
+	width: 32%;	
+	border: 1px solid #FF0023;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+/* Textarea */
+
+#content_d section form textarea, #content_update section form textarea {
+	height: 90px;
+}
+
+/* Submit Input */
+
+#content_cli section form .btn, #content_a section form .btn, #content_list section form .btn, 
+#content_con section form .btn, #content_d section form .btn
+ {
+	width: 10%;
+	background-color: #FF0023;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#content_update section form .btn, #content_delete section form .btn {
+	width: 20%;
+	background-color: #FF0023;
+	color: #FFF;
+	cursor: pointer;
+	margin-bottom: 30px; 
+}
+
+/* P */
+
+#content_h section p, #page section p {
+	line-height: 1.4em;
+}
+
+/* H2 */
+
+#content_h section h2, #page section h2, #content_cli section h2, 
+#content_a section h2, #content_list section h2, 
+#content_con section h2, #content_d section h2, 
+#content_delete section h2, #content_update section h2 {
+	margin: 20px 0;
+	color: #F00003;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+/* Divs */
+
+#content_update section form div, #content_list section form div {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* Divs List */
+
+#content_list section div {
+	width: auto;
+	text-align: left;
+	background-color: #f7f2f3;
+	margin: 20px 30px 0 30px;
+	padding: 20px;	
+}
+
+#content_list section div p {
+	margin: 8px 0;	
+}
+
+
+#content_list section {
+	margin: 0 30px;
+}
+
+#content_list section section {
+	background-color: #f7f2f3;
+	padding-bottom: 10px;
+}
+
+#content_list section section button {
+	margin: 0 10px;
+	padding: 15px;
+	font-size: 1em;
+	background-color: #F00003;
+	color: #FFF;
+	cursor: pointer;
+	font-weight: 700;	
+}
+
+/* Menu */
+
+#content #menus {
+	width: 100%;
+}
+
+#content #menu {
+	background-color: #FF0023;
+}
+
+#content #menu, #content #menus #option {		
+	padding: 5px 0;
+}
+
+#content #menus #option {
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+
+#content #menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#content #menus, #content #menus {
+	width: 100%;
+}
+
+#content #menus #option ul {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#content #menu ul li, #content #menu ul li a {
+	list-style: none;
+	padding: 20px;
+	margin: 0 5px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+
+#content #menus #option ul li {
+	background-color: #FF0023;
+}
+
+#content #menus #option ul li, #content #menus #option ul li a {
+	list-style: none;
+	padding: 16px;
+	margin: 5px 0;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	cursor: pointer;
+	font-size: 1em;	
+}
+
+#content #menu ul li:hover, #content #menus #option ul li:hover {
+	background-color: #F00003;	
+}
+
+
+@media(max-width: 786px) {
+	#content #menu ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#content #menu ul li {
+		margin: 0;
+		padding: 15px;
+	}
+
+	#content_cli section form input, #content_a section form input, 
+	#content_con section form input, #content_d section form input,
+	#content_delete section form input, #content_update section form input,
+	#content_d section form textarea, #content_a section form select, 
+	#content_con section form select, #content_d section form select,
+	#content_delete section form select, #content_update section form select,
+	#content_cli section form .btn, #content_a section form .btn, 
+	#content_con section form .btn, #content_d section form .btn,
+	#content_delete section form .btn, #content_update section form .btn
+ 	{
+		width: 80%;
+	}
+
+	#content #menus #option ul {
+		width: 70%;
+	}
+
+	#content #menus #option ul li, #content #menus #option ul li a {
+		padding: 5px;
+		font-size: 0.9em;
+	}
+
+	#content_list section div {
+		margin: 20px 5px 0 5px;
+	}
+
+	#content_list section section {
+		margin: 0px 5px;
+	}
+
+	#content_list section div p {
+		font-size: 0.9em;
+	}
+}
