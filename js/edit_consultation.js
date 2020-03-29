@@ -34,7 +34,7 @@ function edit(id, txt_date, txt_doctor, txt_reason) {
 
 	let button = document.createElement('input');
 	button.type = 'submit';
-	button.innerHTML = 'UPDATE';
+	button.value = 'SEND';
 	button.className = 'btn';
 	button.style = 'cursor:pointer;';
 

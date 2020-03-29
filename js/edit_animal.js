@@ -35,7 +35,7 @@ function edit(id, txt_name, txt_age, txt_breed) {
 
 	let button = document.createElement('input');
 	button.type = 'submit';
-	button.innerHTML = 'UPDATE';
+	button.value = 'SEND';
 	button.className = 'btn';
 	button.style = 'cursor:pointer;';
 
@@ -61,7 +61,7 @@ function edit(id, txt_name, txt_age, txt_breed) {
 	let pName = document.getElementById('animalName_'+id);
 	let pAge = document.getElementById('animalAge_'+id);
 	let pBreed = document.getElementById('animalBreed_'+id);
-	
+
 	pName.innerHTML = '';
 	pAge.innerHTML = '';
 	pBreed.innerHTML = '';

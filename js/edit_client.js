@@ -34,7 +34,7 @@ function edit(id, txt_name, txt_address, txt_tel) {
 
 	let button = document.createElement('input');
 	button.type = 'submit';
-	button.innerHTML = 'UPDATE';
+	button.value = 'SEND';
 	button.className = 'btn';
 	button.style = 'cursor:pointer;';
 
@@ -61,6 +61,7 @@ function edit(id, txt_name, txt_address, txt_tel) {
 	let pAddress = document.getElementById('clientAddress_'+id);
 	let pTel = document.getElementById('clientTel_'+id);
 	
+
 	pName.innerHTML = '';
 	pAddress.innerHTML = '';
 	pTel.innerHTML = '';
@@ -70,5 +71,6 @@ function edit(id, txt_name, txt_address, txt_tel) {
 	pName.insertBefore(form, pName[0]);
 	pAddress.insertBefore(form, pAddress[0]);
 	pTel.insertBefore(form, pTel[0]);
+
 }
 

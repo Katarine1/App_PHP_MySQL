@@ -19,7 +19,7 @@ function edit(id, txt_details) {
 
 	let button = document.createElement('input');
 	button.type = 'submit';
-	button.innerHTML = 'UPDATE';
+	button.value = 'SEND';
 	button.className = 'btn';
 	button.style = 'cursor:pointer;';
 
@@ -41,7 +41,7 @@ function edit(id, txt_details) {
 	// limpar o texto para a inclusão do form
 
 	let pDetails = document.getElementById('details_'+id);
-	
+
 	pDetails.innerHTML = '';
 
 	// incluir form na página
